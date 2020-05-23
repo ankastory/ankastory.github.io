@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Anka Story </title>
+  <link rel="stylesheet" href="../libraries/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Pacifico&display=swap">
+  <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <center>
+      <nav class="row navbar navbar-expand-lg navbar-light bg-white col-10">
+        <a href="../index.html" class="navbar-brand">Anka Story</a>
+        <div class="collapse navbar-collapse" id="navb">
+          <ul class="navbar-nav ml-auto mr-3">
+            <li class="nav-item mx-md-2">
+              <a href="../first.html" class="nav-link">
+                First Meet
+              </a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="../updown.html" class="nav-link">
+                Up & Down
+              </a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="../smile.html" class="nav-link">
+                More Smiles
+              </a>
+            </li>
+            <li class="nav-item mx-md-2">
+              <a href="satu.html" class="nav-link active">
+                Trivia
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </center>
+  </div>
+
+  <main>
+    <section class="section-trivia-header">
+      <div class="container">
+        <div class="row">
+          <div class="section-trivia-header-title col-12 text-center">
+            <h1>
+              Ada banyak detail dari setiap momen yang telah kita lalui.
+              <br>
+              Tak ada salahnya untuk mengingat sekali lagi.
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="section-trivia-content">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center trivia-title">
+            <span class="title-first">Remember</span>
+            <span class="title-second">Us?</span>
+          </div>
+        </div>
+        <center>
+          <div class="card card-number col-10 text-center">
+            <h5>3 dari 6</h5>
+          </div>
+          <div class="card card-question col-10">
+            <p>
+              Setiap hari ulang tahunmu, kita selalu menjelajah banyak tempat dan
+              melakukan banyak kegiatan. Mulai dari memenuhi BM kamu hingga
+              memutari kota Jakarta mencari sesuatu.
+              <strong>
+                Dari banyak kegiatan itu, ada satu yang tidak pernah
+                kita lakukan di hari ulang tahunmu. Kegiatan apakah itu?
+              </strong>
+            </p>
+          </div>
+          <div class="section-card-answer row justify-content-center">
+            <div class="col-10 col-sm-10 col-lg-5">
+              <div class="card card-option text-center">
+                <button type="submit" id="salah" class="btn btn-option px-4" data-toggle="collapse" href="#wrong">
+                  Makan Nasi Padang
+                </button>
+              </div>
+            </div>
+            <div class="col-10 col-sm-10 col-lg-5">
+              <div class="card card-option text-center">
+                <button type="submit" id="salah" class="btn btn-option px-4" data-toggle="collapse" href="#wrong">
+                  Pergi ke Museum
+                </button>
+              </div>
+            </div>
+            <div class="col-10 col-sm-10 col-lg-5">
+              <div class="card card-option text-center">
+                <button type="submit" id="salah" class="btn btn-option px-4" data-toggle="collapse" href="#wrong">
+                  Main Timezone
+                </button>
+              </div>
+            </div>
+            <div class="col-10 col-sm-10 col-lg-5">
+              <div class="card card-option text-center">
+                <button type="button" id="benar" class="btn btn-option px-4" data-toggle="collapse" href="#correct">
+                  Kondangan Bareng
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="collapse collapse-answer" id="correct">
+            <div class="card card-answer col-10 justify-content-center">
+              <img src="../images/icons/ic_check@2x.png" alt="" width="80" height="80">
+              <h3>Correct!</h3>
+              <p>
+                Dari sekian banyak kegiatan yang dilakukan di hari ulang tahunmu,
+                <strong> Kondangan Bareng</strong> bukanlah salah satunya.
+                Di tahun pertama, kita pergi ke Museum Macan lalu makan nasi padang
+                bersama di rumahmu dan berbincang hingga malam. Tahun selanjutnya,
+                ulang tahunmu ke 22, keinginanmu untuk mengunjungi RUCI Art Space
+                tidak terwujud. Hari itu kita habiskan dengan memutari Jakarta
+                untuk mencari kadomu dan diakhiri dengan bermain Timezone berdua.
+                Lalu awal tahun ini, hari ulang tahunmu kita lewati dengan mencari
+                sepatu pilihanmu yang tak kunjung dapat hingga malam tiba.
+              </p>
+            </div>
+            <form action="empat.html" method="GET">
+              <input type="hidden" name="status" value="" id="jmlbenar">
+              <button type="submit" class="btn btn-next">
+                Next Question
+              </button>
+            </form>
+          </div>
+          <div class="collapse collapse-answer" id="wrong">
+            <div class="card card-answer col-10 justify-content-center">
+              <img src="../images/icons/ic_cross@2x.png" alt="" width="80" height="80">
+              <h3>Incorrect!</h3>
+              <p>
+                Dari sekian banyak kegiatan yang dilakukan di hari ulang tahunmu,
+                <strong> Kondangan Bareng</strong> bukanlah salah satunya.
+                Di tahun pertama, kita pergi ke Museum Macan lalu makan nasi padang
+                bersama di rumahmu dan berbincang hingga malam. Tahun selanjutnya,
+                ulang tahunmu ke 22, keinginanmu untuk mengunjungi RUCI Art Space
+                tidak terwujud. Hari itu kita habiskan dengan memutari Jakarta
+                untuk mencari kadomu dan diakhiri dengan bermain Timezone berdua.
+                Lalu awal tahun ini, hari ulang tahunmu kita lewati dengan mencari
+                sepatu pilihanmu yang tak kunjung dapat hingga malam tiba.
+              </p>
+            </div>
+            <form action="empat.html" method="GET">
+              <input type="hidden" name="status" value="" id="jmlsalah">
+              <button type="submit" class="btn btn-next">
+                Next Question
+              </button>
+            </form>
+          </div>
+          <div class="section-trivia-footer">
+            <div class="container"></div>
+          </div>
+        </center>
+      </div>
+    </div>
+  </main>
+
+  <script src="../libraries/jquery/jquery-3.5.0.min.js"></script>
+  <script src="../libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="../libraries/retina/retina.min.js"></script>
+  <script>
+    var statusParam = new URLSearchParams(location.search);
+    //var statusParam = window.location.search;
+    var status = statusParam.get('status');
+    var tambah = parseInt(status);
+    var tambah = tambah + 1;
+    document.getElementById("jmlbenar").value = tambah;
+    document.getElementById("jmlsalah").value = status;
+  </script>
+  <script>
+    var no1 = $("#salah, #benar");
+
+    $('button').on('click', function (e) {
+      var target = $(this).attr('href');
+      $(target).show();
+      $(no1).attr('disabled', 'disabled');
+    });
+  </script>
+</body>
+
+</html>
