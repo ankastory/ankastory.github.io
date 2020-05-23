@@ -7,7 +7,7 @@ body {
 header {
   padding: 175px 10px 218px;
   margin-top: -110px;
-  background: url("../images/header/banner.png") no-repeat center;
+  background: url("images/header/banner.png") no-repeat center;
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@ header .btn-take-look:hover {
 }
 
 .section-footer {
-  background: url("../images/footer/banner.png") no-repeat center;
+  background: url("images/footer/banner.png") no-repeat center;
   background-size: cover;
   min-height: 520px;
 }
