@@ -5,39 +5,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Anka Story </title>
-  <link rel="stylesheet" href="{{ url('frontend/libraries/bootstrap/css/bootstrap.css') }}">
+  <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Pacifico&display=swap">
-  <link rel="stylesheet" href="{{ url('frontend/styles/main.css') }}">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <div class="container">
     <center>
       <nav class="row navbar navbar-expand-lg navbar-light bg-white col-10">
-        <a href="{{ route('home') }}" class="navbar-brand">Anka Story</a>
+        <a href="index.html" class="navbar-brand">Anka Story</a>
         <div class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
             <li class="nav-item mx-md-2">
-              <a href="{{ route('first') }}" class="nav-link 
-              @if(Route::currentRouteName() == 'first') active @endif">
+              <a href="first.html" class="nav-link active">
                 First Meet
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('updown') }}" class="nav-link 
-              @if(Route::currentRouteName() == 'updown') active @endif">
+              <a href="updown.html" class="nav-link">
                 Up & Down
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('smile') }}" class="nav-link
-              @if(Route::currentRouteName() == 'smile') active @endif">
+              <a href="smile.html" class="nav-link">
                 More Smiles
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('trivia') }}" class="nav-link
-              @if(Route::currentRouteName() == 'trivia') active @endif">
+              <a href="smile.html" class="nav-link">
                 Trivia
               </a>
             </li>
@@ -142,7 +138,7 @@
         </div>
         <div class="container-fluid">
           <div class="story-footer row justify-content-center">
-            <img src="{{ url('frontend/images/first/footer.png') }}" alt="" class="responsive" width="1280"
+            <img src="images/first/footer.png" alt="" class="responsive" width="1280"
               height="440">
           </div>
         </div>
@@ -151,9 +147,9 @@
     </section>
   </main>
 
-  <script src="{{ url('frontend/libraries/jquery/jquery-3.5.0.min.js') }}"></script>
-  <script src="{{ url('frontend/libraries/bootstrap/js/bootstrap.js') }}"></script>
-  <script src="{{ url('frontend/libraries/retina/retina.min.js') }}"></script>
+  <script src="libraries/jquery/jquery-3.5.0.min.js"></script>
+  <script src="libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="libraries/retina/retina.min.js"></script>
 </body>
 
 </html>

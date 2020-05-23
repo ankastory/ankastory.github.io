@@ -5,40 +5,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title> Anka Story </title>
-  <link rel="stylesheet" href="{{ url('frontend/libraries/bootstrap/css/bootstrap.css') }}">
+  <link rel="stylesheet" href="libraries/bootstrap/css/bootstrap.css">
   <link rel="stylesheet"
     href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800&family=Pacifico&display=swap">
-  <link rel="stylesheet" href="{{ url('frontend/styles/main.css') }}">
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
   <div class="container">
     <center>
       <nav class="row navbar navbar-expand-lg navbar-light bg-white col-10">
-        <a href="{{ route('home') }}" class="navbar-brand">Anka Story</a>
+        <a href="index.html" class="navbar-brand">Anka Story</a>
         <div class="collapse navbar-collapse" id="navb">
           <ul class="navbar-nav ml-auto mr-3">
             <li class="nav-item mx-md-2">
-              <a href="{{ route('first') }}" class="nav-link 
-              @if(Route::currentRouteName() == 'first') active @endif">
+              <a href="first.html" class="nav-link">
                 First Meet
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('updown') }}" class="nav-link 
-              @if(Route::currentRouteName() == 'updown') active @endif">
+              <a href="updown.html" class="nav-link active">
                 Up & Down
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('smile') }}" class="nav-link
-              @if(Route::currentRouteName() == 'smile') active @endif">
+              <a href="smile.html" class="nav-link">
                 More Smiles
               </a>
             </li>
             <li class="nav-item mx-md-2">
-              <a href="{{ route('trivia') }}" class="nav-link
-              @if(Route::currentRouteName() == 'trivia') active @endif">
+              <a href="smile.html" class="nav-link">
                 Trivia
               </a>
             </li>
@@ -166,7 +162,7 @@
                 </div>
                 <div class="timeline-body">
                   <div class="pic-inline">
-                    <img src="{{ url('frontend/images/updown/tangis_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/tangis_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="tangis1" width="205" height="201" />
                     <div id="picModal" class="modal">
                       <span class="close">&times;</span>
@@ -174,7 +170,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/tangis_2@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/tangis_2@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="tangis2" width="205" height="201" />
                     <div id="picModal2" class="modal">
                       <span class="close">&times;</span>
@@ -209,7 +205,7 @@
                 </div>
                 <div class="timeline-body">
                   <div class="pic-inline">
-                    <img src="{{ url('frontend/images/updown/jatuh_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/jatuh_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="jatuh1" width="183" height="181" />
                     <div id="picModal3" class="modal">
                       <span class="close">&times;</span>
@@ -217,7 +213,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/jatuh_2@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/jatuh_2@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="jatuh2" width="228" height="181" />
                     <div id="picModal4" class="modal">
                       <span class="close">&times;</span>
@@ -250,7 +246,7 @@
                 </div>
                 <div class="timeline-body">
                   <div class="pic-inline">
-                    <img src="{{ url('frontend/images/updown/birthday_2@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/birthday_2@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="birthday1" width="228" height="181" style="margin-top: 20px;" />
                     <div id="picModal5" class="modal">
                       <span class="close">&times;</span>
@@ -258,7 +254,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/birthday_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/birthday_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="birthday2" width="183" height="211" />
                     <div id="picModal6" class="modal">
                       <span class="close">&times;</span>
@@ -291,7 +287,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="small-margin"></div>
-                    <img src="{{ url('frontend/images/updown/jauh_1@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/jauh_1@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="jauh1" width="228" height="181" />
                     <div id="picModal7" class="modal">
                       <span class="close">&times;</span>
@@ -299,7 +295,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/jauh_2@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/jauh_2@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="jauh2" width="202" height="181" />
                     <div id="picModal8" class="modal">
                       <span class="close">&times;</span>
@@ -335,7 +331,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="one-pic"></div>
-                    <img src="{{ url('frontend/images/updown/kkp_1@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/kkp_1@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="kkp1" width="183" height="200" />
                     <div id="picModal9" class="modal">
                       <span class="close">&times;</span>
@@ -370,7 +366,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="small-margin"></div>
-                    <img src="{{ url('frontend/images/updown/proses_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/proses_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="proses1" width="228" height="200" />
                     <div id="picModal10" class="modal">
                       <span class="close">&times;</span>
@@ -378,7 +374,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/proses_2@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/proses_2@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="proses2" width="202" height="200" />
                     <div id="picModal11" class="modal">
                       <span class="close">&times;</span>
@@ -413,7 +409,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="large-margin"></div>
-                    <img src="{{ url('frontend/images/updown/birthday_3@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/birthday_3@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="birthday3" width="185" height="211" />
                     <div id="picModal12" class="modal">
                       <span class="close">&times;</span>
@@ -421,7 +417,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/birthday_4@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/birthday_4@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="birthday4" width="195" height="211" />
                     <div id="picModal13" class="modal">
                       <span class="close">&times;</span>
@@ -454,7 +450,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="small-margin"></div>
-                    <img src="{{ url('frontend/images/updown/bulan_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/bulan_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="bulan1" width="228" height="200" />
                     <div id="picModal14" class="modal">
                       <span class="close">&times;</span>
@@ -462,7 +458,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/bulan_2@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/bulan_2@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="bulan2" width="202" height="200" />
                     <div id="picModal15" class="modal">
                       <span class="close">&times;</span>
@@ -497,7 +493,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="one-pic-ls"></div>
-                    <img src="{{ url('frontend/images/updown/jauh_3@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/jauh_3@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="jauh3" width="240" height="181" />
                     <div id="picModal16" class="modal">
                       <span class="close">&times;</span>
@@ -532,7 +528,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="one-pic-md"></div>
-                    <img src="{{ url('frontend/images/updown/target_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/target_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="target1" width="202" height="200" />
                     <div id="picModal17" class="modal">
                       <span class="close">&times;</span>
@@ -563,7 +559,7 @@
                 </div>
                 <div class="timeline-body">
                   <div class="pic-inline">
-                    <img src="{{ url('frontend/images/updown/toga_1@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/toga_1@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="toga1" width="202" height="200" />
                     <div id="picModal18" class="modal">
                       <span class="close">&times;</span>
@@ -571,7 +567,7 @@
                     </div>
 
                     <div class="pic-margin"></div>
-                    <img src="{{ url('frontend/images/updown/toga_2@2x.png') }}" alt="Tangis Loveline" class="pic-thumb"
+                    <img src="images/updown/toga_2@2x.png" alt="Tangis Loveline" class="pic-thumb"
                       id="toga2" width="202" height="200" />
                     <div id="picModal19" class="modal">
                       <span class="close">&times;</span>
@@ -609,7 +605,7 @@
                 <div class="timeline-body">
                   <div class="pic-inline">
                     <div class="one-pic-md"></div>
-                    <img src="{{ url('frontend/images/updown/kalah_1@2x.png') }}" alt="Tangis Loveline"
+                    <img src="images/updown/kalah_1@2x.png" alt="Tangis Loveline"
                       class="pic-thumb" id="kalah1" width="202" height="200" />
                     <div id="picModal20" class="modal">
                       <span class="close">&times;</span>
@@ -691,7 +687,7 @@
             <li class="timeline-inverted">
               <div class="timeline-badge">
                 <div class="timeline-text-loading">
-                  <img src="{{ url('frontend/images/icons/ic_loading.png') }}" alt="" width="34" height="34" />
+                  <img src="images/icons/ic_loading.png" alt="" width="34" height="34" />
                   <br>
                   Loading
                 </div>
@@ -704,9 +700,9 @@
     </section>
   </main>
 
-  <script src="{{ url('frontend/libraries/jquery/jquery-3.5.0.min.js') }}"></script>
-  <script src="{{ url('frontend/libraries/bootstrap/js/bootstrap.js') }}"></script>
-  <script src="{{ url('frontend/libraries/retina/retina.min.js') }}"></script>
+  <script src="libraries/jquery/jquery-3.5.0.min.js"></script>
+  <script src="libraries/bootstrap/js/bootstrap.js"></script>
+  <script src="libraries/retina/retina.min.js"></script>
   <script>
     var modal = document.getElementById("picModal");
     var img = document.getElementById("tangis1");
