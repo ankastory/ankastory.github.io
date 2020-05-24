@@ -7,7 +7,7 @@ body {
 header {
   padding: 175px 10px 218px;
   margin-top: -110px;
-  background: url("../images/header/banner.png") no-repeat center;
+  background: url("../images/header/banner.jpg") no-repeat center;
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@ header .btn-take-look:hover {
 }
 
 .section-footer {
-  background: url("../images/footer/banner.png") no-repeat center;
+  background: url("../images/footer/banner.jpg") no-repeat center;
   background-size: cover;
   min-height: 520px;
 }
@@ -225,7 +225,7 @@ header .btn-take-look:hover {
 
 .section-first-header {
   height: 340px;
-  background: url("../images/first/banner.png") no-repeat right;
+  background: url("../images/first/banner.jpg") no-repeat right;
   background-size: cover;
   margin-top: -60px;
 }
@@ -297,7 +297,7 @@ header .btn-take-look:hover {
 
 .section-updown-header {
   min-height: 340px;
-  background: url("../images/updown/banner.png") no-repeat center;
+  background: url("../images/updown/banner.jpg") no-repeat center;
   background-size: cover;
   margin-top: -60px;
 }
@@ -682,7 +682,7 @@ header .btn-take-look:hover {
 
 .section-smile-header {
   min-height: 340px;
-  background: url("../images/smile/banner.png") no-repeat center;
+  background: url("../images/smile/banner.jpg") no-repeat center;
   background-size: cover;
   margin-top: -60px;
 }
@@ -882,7 +882,7 @@ header .btn-take-look:hover {
 
 .section-trivia-header {
   min-height: 340px;
-  background: url("../../images/trivia/banner.png") no-repeat center;
+  background: url("../../images/trivia/banner.jpg") no-repeat center;
   background-size: cover;
   margin-top: -60px;
 }
